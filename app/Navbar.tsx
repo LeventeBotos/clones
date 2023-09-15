@@ -12,7 +12,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="fixed left-0 right-0 top-0 z-30 flex h-20 items-center justify-between bg-[#f5f5f5] p-3 backdrop-blur-lg backdrop-filter md:h-24">
+    <nav className="fixed left-0 right-0 top-0 z-30 flex h-20 items-center justify-between bg-[#f5f5f5] bg-opacity-75 p-3 backdrop-blur-lg backdrop-filter md:h-24">
       <a href="/">
         <img
           src="/logo.png"
@@ -39,21 +39,21 @@ export const Navbar = () => {
         <a
           href="/"
           aria-label="Example"
-          className=" items-center rounded-full bg-transparent px-5 p-3 text-center text-[#1f1f1f] ease-in-out duration-200 hover:bg-accent hover:text-[#f5f5f5]"
+          className="font-medium items-center rounded-full bg-transparent px-5 p-3 text-center text-[#1f1f1f] ease-in-out duration-200 hover:bg-accent hover:text-[#f5f5f5] text-lg"
         >
           Example
         </a>
         <a
           href="/"
           aria-label="Example"
-          className=" items-center rounded-full bg-transparent px-5 p-3 text-center text-[#1f1f1f] ease-in-out duration-200 hover:bg-accent hover:text-[#f5f5f5]"
+          className="font-medium items-center rounded-full bg-transparent px-5 p-3 text-center text-[#1f1f1f] ease-in-out duration-200 hover:bg-accent hover:text-[#f5f5f5] text-lg"
         >
           Example
         </a>
         <a
           href="/"
           aria-label="Főoldal"
-          className=" items-center rounded-full bg-transparent px-5 p-3 text-center text-[#1f1f1f] ease-in-out duration-200 hover:bg-accent hover:text-[#f5f5f5]"
+          className="font-medium items-center rounded-full bg-transparent px-5 p-3 text-center text-[#1f1f1f] ease-in-out duration-200 hover:bg-accent hover:text-[#f5f5f5] text-lg"
         >
           Főoldal
         </a>
