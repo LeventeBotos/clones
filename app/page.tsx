@@ -1,9 +1,12 @@
 import Cards from "./Cards";
 import Cards3 from "./Cards3";
 import ColsOf3 from "./ColsOf3";
+import Faq from "./Faq";
 import Grid from "./Grid";
 import Hero from "./Hero";
+import Pricing from "./Pricing";
 import SlidingCards from "./SlidingCards";
+import Why from "./Why";
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
       <ColsOf3 />
       <Cards3 />
       <Grid />
+      <Why />
+      <Pricing />
+      <Faq />
     </main>
   );
 }
